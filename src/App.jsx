@@ -15,7 +15,8 @@ function App() {
   const [currentFavorite, setCurrentFavorite] = useState({});
 
 useEffect(() => {
-
+    console.log("Heres the api: ")
+    console.log(import.meta.env.VITE_POKE_API)
     pokemonlist.forEach(p => {
       fetch(import.meta.env.VITE_POKE_API + p.toLowerCase())
        .then(response => response.json())
