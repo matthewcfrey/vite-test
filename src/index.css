@@ -40,3 +40,14 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.card {
+    padding: 20px;
+    background-color: tomato;
+    width: 30vw;
+    max-height: 40vh;
+}
+
+.ability {
+    font-size: 40px;
+}

@@ -13,6 +13,9 @@ const Layout = props => {
                 <div className='link-box'>
                     <Link className='header-link' to='/UEFetch'>UEFetch</Link>
                 </div>
+                <div className='link-box'>
+                    <Link className='header-link' to='/test'>TestRouter</Link>
+                </div>
             </div>
             <Outlet />
         </>

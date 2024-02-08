@@ -15,6 +15,10 @@ class CompMount extends React.Component {
         this.changeText()
     }
 
+    // componentWillUnmount() {
+    //     alert("Hello world")
+    // }
+
     render() {
         return (
             <>
